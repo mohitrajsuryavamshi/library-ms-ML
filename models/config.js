@@ -1,9 +1,9 @@
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
-  host     : 'database-2.cygprm6tqvj5.ap-south-1.rds.amazonaws.com',
-  user     : 'dheeraj',
-  password : '123456789',
-  database : 'library_management_system'
+  host     : 'localhost',
+  user     : 'root',
+  password : 'mohit@123',
+  database : 'lms_db'
 });
 
 module.exports = {
